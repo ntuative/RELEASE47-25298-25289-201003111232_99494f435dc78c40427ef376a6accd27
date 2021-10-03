@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="inventory_furni_base" width="20" height="20" version="0.0">
+  <window>
+    <container x="5" y="5" width="369" height="245" params="0" style="0" name="furniture_content" background="true">
+      <children>
+        <selector x="0" y="0" width="369" height="22" params="17" style="0" name="category_selector">
+          <children>
+            <button_group_left x="0" y="0" width="120" height="22" params="131089" style="0" name="tab_floor" caption="%24%7Binventory.furni.tab.floor%7D" width_min="120" width_max="120"/>
+            <button_group_center x="120" y="0" width="120" height="22" params="131089" style="0" name="tab_wall" caption="%24%7Binventory.furni.tab.wall%7D" width_min="120" width_max="120"/>
+            <button_group_right x="240" y="0" width="120" height="22" params="131089" style="0" name="tab_pets" caption="%24%7Binventory.furni.tab.pets%7D" width_min="120" width_max="120"/>
+          </children>
+        </selector>
+        <container x="3" y="25" width="200" height="215" params="16" style="0" name="grid_container"/>
+        <container x="205" y="25" width="160" height="215" params="16" style="0" name="action_container"/>
+      </children>
+    </container>
+  </window>
+</layout>

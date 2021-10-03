@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="name_change" width="20" height="20" version="0.0">
+  <window>
+    <frame x="2" y="2" width="193" height="201" params="33025" style="0" caption="%24%7Bhotel_merge.name_change.title%7D">
+      <children>
+        <border x="0" y="0" width="181" height="169" params="2192" style="0" name="main_border" caption="name_change_title">
+          <children>
+            <text x="12" y="12" width="157" height="57" params="16" style="0" caption="%24%7Bhotel_merge.name_change.info%7D">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="word_wrap" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <bitmap x="44" y="69" width="88" height="88" params="17" style="0" name="button_image" caption="name_change_title" treshold="0"/>
+            <text x="48" y="139" width="80" height="24" params="917520" style="0" caption="%24%7Bhelp.tutorial.button.changename%7D">
+              <variables>
+                <var key="font_face" value="Volter" type="String"/>
+                <var key="font_size" value="9" type="uint"/>
+                <var key="text_color" value="0x0" type="hex"/>
+                <var key="embed_fonts" value="true" type="Boolean"/>
+                <var key="auto_size" value="center" type="String"/>
+              </variables>
+            </text>
+          </children>
+        </border>
+      </children>
+    </frame>
+  </window>
+</layout>
